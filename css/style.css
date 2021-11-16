@@ -6,6 +6,7 @@
 
 body {
   font-family: "Rubik Mono One", sans-serif;
+  overflow: hidden;
 }
 
 /* pagina */
@@ -46,4 +47,34 @@ body {
 
 #blue {
   background-color: #8bd3dd;
+}
+
+/* menu section */
+
+li {
+  margin: 10px;
+  list-style-type: none;
+  line-height: 40px;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.button-menu {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
 }
