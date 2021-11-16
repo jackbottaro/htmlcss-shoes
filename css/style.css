@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+/* color section */
+
+.green-section {
+  background-color: #004643;
+}
+
+/* TODO shoes section */
+
+/* photo-shoes */
+
+.shoe-section {
+  height: 100vh;
+}
+
+.shoe-img {
+}
+
+.shoe-img img {
+  height: 500px;
+}
+
+/* TODO text section */
+
+/* text section */
+
+.shoe-text {
+}
+
+.shoe-text p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+}
