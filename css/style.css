@@ -8,36 +8,42 @@ body {
   font-family: "Rubik Mono One", sans-serif;
 }
 
-/* color section */
+/* pagina */
 
-.green-section {
+.full-page {
+  height: 100vh;
+  position: relative;
+}
+
+.full-page .content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* contenuti */
+
+.content img {
+  width: 700px;
+}
+
+.content p {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+/* colori */
+#green {
   background-color: #004643;
 }
 
-/* TODO shoes section */
-
-/* photo-shoes */
-
-.shoe-section {
-  height: 100vh;
+#yellow {
+  background-color: #ff8e3c;
 }
 
-.shoe-img {
-}
-
-.shoe-img img {
-  height: 500px;
-}
-
-/* TODO text section */
-
-/* text section */
-
-.shoe-text {
-}
-
-.shoe-text p {
-  text-transform: uppercase;
-  color: white;
-  font-size: 40px;
+#blue {
+  background-color: #8bd3dd;
 }
